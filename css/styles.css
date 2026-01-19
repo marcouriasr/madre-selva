@@ -2,7 +2,7 @@
    VARIABLES CSS Y RESET
    =================================== */
 :root {
-    --color-primary: #809644;        /* Verde bosque */
+    --color-primary: #809644;        /* Verde */
     --color-secondary: #7a9b59;      /* Verde claro */
     --color-accent: #c86b3c;         /* Terracota */
     --color-background: #f5f1e8;     /* Beige claro */
@@ -373,7 +373,7 @@ header {
     }
 }
 
-/* Tablets pequeñas y móviles grandes - 600px a 768px */
+/* Tablets pequeñas y celulares grandes - 600px a 768px */
 @media screen and (max-width: 768px) {
     .nav-menu {
         flex-direction: column;
@@ -433,7 +433,7 @@ header {
     }
 }
 
-/* Móviles - hasta 600px */
+/* Celulares - hasta 600px */
 @media screen and (max-width: 600px) {
     :root {
         --spacing-small: 0.75rem;
@@ -526,26 +526,3 @@ header {
     }
 }
 
-/* Móviles muy pequeños - hasta 400px */
-@media screen and (max-width: 400px) {
-    .nav-menu a {
-        font-size: 0.85rem;
-        padding: 0.75rem;
-    }
-
-    .logo-column h1 {
-        font-size: 1.1rem;
-    }
-
-    .page-title {
-        font-size: 1.3rem;
-    }
-
-    .product-card img {
-        height: 150px;
-    }
-
-    .footer-container {
-        gap: var(--spacing-small);
-    }
-}
